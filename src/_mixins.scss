@@ -1,0 +1,26 @@
+//LOGO
+@mixin logo($image) {
+    width:400px;
+    height:190px;
+    background:url($image) no-repeat 0 50px;
+    float:left;
+    display:block;
+    margin:0;
+}
+
+//NAVIGATION MENU
+@mixin navMenu {
+    width:540px;
+    height:190px;
+    float:left;
+    text-align:right;
+}
+
+
+//HEADER
+
+//CONTENT AREAS
+
+//FOOTER
+
+//MEDIA QUERIES
