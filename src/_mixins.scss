@@ -16,11 +16,42 @@
     text-align:right;
 }
 
-
 //HEADER
+@mixin header {
+    width:inherit;
+    clear:both;
+    text-align:center;
+    padding-top:40px;
+}
 
 //CONTENT AREAS
+//headline
+@mixin headline {
+    width:100%;
+    height:130px;
+    background:$orangeMainContent;
+    text-align:center;
+    margin:0 auto;
+}
+//content
+@mixin  content {
+    width:940px;
+    margin:20px auto;
+}
 
 //FOOTER
+@mixin foot {
+    width:100%;
+    height:120px;
+    background:$darkGrey;
+    text-align:center;
+    color:$white;
+    padding-top:50px;
+}
+//social media
+@mixin social {
+    margin:0 auto;
+    width:165px;
+}
 
 //MEDIA QUERIES

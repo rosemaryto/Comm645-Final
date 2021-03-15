@@ -134,19 +134,19 @@ footer {
   text-indent: -9999px;
 }
 
-.social-media div.one {
+.social-media .one {
   background: url("../dist/images/social-media.png") 0 0;
 }
 
-.social-media div.two {
+.social-media .two {
   background: url("../dist/images/social-media.png") -38px 0;
 }
 
-.social-media div.three {
+.social-media .three {
   background: url("../dist/images/social-media.png") -76px 0;
 }
 
-.social-media div.four {
+.social-media .four {
   background: url("../dist/images/social-media.png") -114px 0;
 }
 
