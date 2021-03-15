@@ -77,8 +77,18 @@ header h3 {
 }
 
 #content #products {
-  width: 460px;
   float: left;
+  width: 49.5%;
+}
+
+#content #products:nth-child(n) {
+  margin-bottom: 1%;
+  margin-right: 1%;
+}
+
+#content #products:nth-child(2n) {
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 #content #products img {
@@ -92,11 +102,6 @@ header h3 {
 
 #content #products h4 {
   line-height: 1em;
-}
-
-#content #testimonials {
-  width: 460px;
-  float: right;
 }
 
 /* FOOTER */
@@ -189,7 +194,7 @@ nav ul li a:hover {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 959px) {
+@media (max-width: 959px) {
   main {
     width: 768px;
   }
@@ -228,7 +233,7 @@ nav ul li a:hover {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   main {
     width: 460px;
   }
@@ -260,7 +265,7 @@ nav ul li a:hover {
   }
 }
 
-@media screen and (max-width: 459px) {
+@media (max-width: 459px) {
   main {
     width: 300px;
   }
